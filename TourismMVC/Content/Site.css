@@ -1,0 +1,49 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/* Custom tourism theme */
+body {
+    padding-top: 70px;
+}
+
+.navbar-inverse {
+    background-color: #0b3d91;
+    border-color: #0b3d91;
+}
+
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff !important;
+    }
+
+.table th {
+    background: #f5f7fb;
+    font-weight: 600;
+}
+/* FIX navbar spacing */
+.navbar-nav > li > a {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* Optional: add space between menu items */
+.navbar-nav > li {
+    margin-right: 5px;
+}
